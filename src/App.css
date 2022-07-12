@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500&family=Merriweather:wght@700&family=Montserrat:wght@300;400;600;700&family=Orbitron:wght@500&family=Poppins:wght@200;300;400;500&family=Roboto:wght@300;400;500&family=Rubik:wght@300&family=Varela+Round&display=swap');
+
+.home{
+    font-family: 'Albert Sans', sans-serif;
+    font-weight: 200;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.filter{
+    background-color: white;
+    display: flex;
+    padding: 5px;
+    height: 70px;
+}
+
+.filter-option{
+    display: flex;
+    flex-direction: column;
+    flex: .2;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-wrap{
+    margin-top: 10px;
+    width: 90%;
+}
+
+.grid{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.item span{
+    color: gray;
+    font-weight: 100;
+    font-size: 0.6rem;
+}
+
+.details-wrap{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+.details-sec{
+    display: flexbox;
+    flex: 0.50;
+    margin: 0 auto;
+}
+
+.specs-wrap{
+    display: flex;
+    margin: 0 auto;
+    width: 95%;
+    margin-bottom: 5px;
+}
+
+.specs-bed{
+    display: flex;
+    flex: 0.30;
+    justify-content: center;
+}
+
+.specs-bath{
+    display: flex;
+    flex: 0.40;
+    justify-content: center;
+}
+
+.specs-area{
+    display: flex;
+    flex: 0.30;
+    justify-content: center;
+}
+
+
+
